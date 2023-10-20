@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: #2e6fd1;
+    width: 100%;
+    height: 80px;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content_navbar {
+    display: flex;
+    margin: 0px 30px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Fnavbar {
+    background: #2e6fd1;
+    width: 100%;
+    height: 80px;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Fcontent_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.C {
+    padding: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #1d1e1f;
+    transition: 0.3s;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+/*Section HomeBody*/
+
+.homeBody {
+    display: grid;
+    background: #1d1e1f;
+    width: 100%;
+    height: 1000px;
+}
+
+section {
+    color: #fff;
+}
